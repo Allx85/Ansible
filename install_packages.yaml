@@ -1,0 +1,9 @@
+- hosts: myhosts
+  tasks:
+  - name: install packages
+    package:
+      name: 
+      - neovim
+      - git
+      - curl
+      state: present
